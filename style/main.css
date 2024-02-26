@@ -367,6 +367,7 @@ template {
 /* hover */
 header {
   border-bottom: 1px solid #D8DEE4;
+  background-color: #F6F8FA;
 }
 
 .header {

@@ -1,5 +1,6 @@
 header {
     border-bottom: 1px solid $line;
+    background-color: $header-bg;
 }
 
 
@@ -137,7 +138,6 @@ header {
     display: flex;
     margin-left: 15px;
     margin-bottom: 5px;
-
     & i {
         color: #656D76;
     }
