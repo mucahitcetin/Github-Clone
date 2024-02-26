@@ -1,0 +1,110 @@
+
+section{
+    padding: 20px 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.left_section{
+        flex-basis: 25%;
+        align-self: start;
+        top: 73px;
+        margin-left: 50px;
+        
+        &_image img{
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            
+            padding: 4px;
+        }
+        &_tittle{
+            margin-left: 15px;
+            font-family: sans-serif;
+            
+            & h2{
+                color: #1F2328;
+                font-weight: 600;
+            }
+            & p{
+                color: #656D76;
+            }
+        }
+        &_job{
+            margin: 10px 0 10px 15px;
+            line-height: 1.5;
+        }
+        &_button{
+            border: 1px solid $line;
+            text-align: center;
+            margin: 0 15px;
+            padding: 5px;
+            border-radius: 7px;
+            color: #1F2328;
+           &:hover{
+            background-color: #F3F4F6;
+            cursor: pointer;
+           }
+        }
+        &_follow{
+            font-size: 18px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin:15px;
+            & i{
+                &:hover{
+                    cursor: pointer;
+                    color:#1C75DD;
+                }
+            }
+            & p{
+                margin-left: 8px;
+                color: #656D76;
+                &:hover{
+                    cursor: pointer;
+                    color:#1C75DD;
+                }
+                & span{
+                    color: rgb(0, 0, 0);
+                    &:hover{
+                        cursor: pointer;
+                        color:#1C75DD;
+                    }
+                }
+            }
+        }
+        &_location{
+            display: flex;
+            margin: 0 15px;
+            & p{
+                margin-left: 8px;
+            }
+        }
+        &_social{
+            display: flex;
+            margin: 15px;
+            & a{
+                color:$text-color;
+                margin-left: 8px;
+                &:hover{
+                    text-decoration: underline;
+                    cursor: pointer;
+                    color:#1C75DD;
+                }
+            }
+        }
+}
+
+
+
+
+
+
+
+
+
+
+

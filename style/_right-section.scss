@@ -1,0 +1,172 @@
+.right_section {
+    flex-basis: 60%;
+    margin-right: 50px;
+
+    font-family: sans-serif;
+
+    &_top {
+        border: 1px solid $line;
+        border-radius: 8px;
+
+        &_first {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+           & p{
+            font-size: 13px;
+           }
+            & i{
+                font-size: 15px;
+                &:hover{
+                    color:#0969DA;
+                    cursor: pointer;
+                }
+            }
+            
+            
+        }
+
+        &_second {
+            display: flex;
+            padding: 20px 30px;
+
+            & h3 {
+                color: #1F2328;
+            }
+
+            & i {
+                color: #FFC83D;
+            }
+
+        }
+
+        &_third {
+            padding: 10px 30px;
+
+            & h3 {
+                color: #1F2328;
+            }
+        }
+
+        &_fourth {
+            padding: 10px 30px;
+
+            & a img {
+                width: 2rem;
+            }
+        }
+
+        &_fifth {
+            padding: 20px 30px;
+
+            & h3 {
+                color: #1F2328;
+            }
+        }
+
+        &_sixth {
+            padding: 20px 30px;
+
+            & a img {
+                width: 2rem;
+            }
+        }
+
+
+    }
+
+    &_bottom {
+        margin-top: 30px;
+
+        &_container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            &_tittle {
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+                margin: 0 10px;
+                & a {
+                    margin: 0 8px;
+                    color: #0969DA;
+                    cursor: pointer;
+                    font-size: 13px;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            &_box {
+                border: 1px solid $line;
+                border-radius: 8px;
+                margin: 10px;
+                padding: 10px;
+                flex-basis: 45%;
+
+                &_content {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 15px 0;
+
+                    & div {
+                        display: flex;
+                    }
+
+                    & a {
+                        margin: 0 8px;
+                        color: #0969DA;
+                        cursor: pointer;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+
+                    & p {
+                        font-size: 14px;
+
+                        padding: 1px 6px;
+                        border: 1px solid $line;
+                        border-radius: 15px;
+                        color: #777E86;
+                    }
+
+                    & i {
+                        margin: 0 5px;
+                    }
+                }
+
+                &_lang {
+                    display: flex;
+                    padding: 15px 0;
+
+                    & i {
+                        margin: 0 5px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.yellow {
+    color: #FFC83D;
+}
+
+.pink {
+    color: #C6538C;
+}
+
+.purple {
+    color: #563D7C;
+}
+
+.orange {
+    color: #E34C26;
+}
